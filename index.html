@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Virtual Assistant Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+     <header>
+        <img src="pic1.jpg" alt="Profile Picture" class="profile-pic">
+        <h1>Patrick C. Fabon</h1>
+        <p class="tagline">Aspiring Virtual Assistant</p>
+        <p class="description">Efficient, organized, and ready to support your business needs.</p>
+        <button class="btn" onclick="showResume()">View Resume</button>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I’m Patrick C. Fabon, a dedicated and detail-oriented virtual assistant passionate about helping businesses streamline their workflows and stay organized. My mission is to provide reliable and efficient support that allows my clients to focus on growing their business. I’m proficient in Microsoft Office, Google Workspace, and other tools, and I’m always eager to learn new software to support my clients better. With a strong background in data entry and administrative support, I specialize in handling the day-to-day tasks that keep businesses running smoothly. I’m passionate about helping entrepreneurs and businesses find balance by taking over tasks that can free up their time. My goal is to be the right-hand support my clients can trust to handle both routine and complex tasks with confidence and efficiency. When I’m not working, I enjoy playing volleyball, reading about productivity hacks, and going on nature walks that refresh my mind and help me stay focused and motivated</p> 
+        </section>
+
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <div class="experience-item">
+                <i class="fas fa-briefcase"></i>
+                <div>
+                    <h3>Utility Worker</h3>
+                    <p>LGU Hilongos, 2023-Present</p>
+                    <p>Managed data entry and other administrative tasks.</p>
+                </div>
+            </div>
+            <div class="experience-item">
+                <i class="fas fa-briefcase"></i>
+                <div>
+                    <h3>Restuarant Waiter</h3>
+                    <p>Chika-an, 2 Weeks</p>
+                    <p>Serve food, cook and wash dishes</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education-item">
+                <i class="fas fa-graduation-cap"></i>
+                <div>
+                    <h3>Bachelor of Science in Information Technology</h3>
+                    <p>Southern Leyte State University, 2023</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="goals">
+            <h2>My Goals</h2>
+            <p>Helping entrepreneurs and business owners save time, maintain organization, and concentrate on what really important is my aim. I want to provide my clients with the support they need to accomplish their strategic objectives without having to worry about daily responsibilities. I'm committed to helping my clients run their businesses more effectively and productively in every way. To help my clients perform at their highest level, I'm always looking for methods to optimize workflows, reduce redundancies, and streamline procedures. I'm dedicated to expanding my skill set and keeping up with the newest tools and technology as an aspiring virtual assistant. From learning new software to honing my project management techniques, I am keen to keep learning and changing to satisfy my clients' changing needs.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Patrick Fabon</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/patrick.fabon.5" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://https://github.com/Patfabon/Patfabon" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+    <div id="resumeModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeResume()">&times;</span>
+            <iframe src="resume.pdf" width="100%" height="600px" title="Resume PDF Viewer"></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
